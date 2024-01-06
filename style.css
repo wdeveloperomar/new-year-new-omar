@@ -12,14 +12,10 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 60%;
+    margin: 0 auto;
 }
 
-.section-title {
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
-}
 
 /* ---------------------header section styles ----------------*/
 .header {
@@ -66,5 +62,69 @@ body {
     padding: 21px 25px 20px 26px;
     border: 0;
 }
+
+/* ------------------main section styles--------------- */
+main {
+    width: 100%;
+}
+
+
+/*------------------failure section styles------------------*/
+
+.failure-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 105px;
+    margin-top: 140px;
+}
+
+.failure-info-img {
+    width: 60%;
+}
+
+.failue-info-img img {
+    width: 100%;
+}
+
+.failure-info-section {
+    padding: 230px 35px 0 0;
+}
+
+
+.failure-info-section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-info-section-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 30px;
+    margin-top: 20px;
+
+}
+
+.failure-info-section ul {
+    margin-top: 16px;
+}
+
+.failure-info-section ul li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+
+.failure-info-section ul li i {
+    color: #16d887;
+}
+
+
+
 
 
